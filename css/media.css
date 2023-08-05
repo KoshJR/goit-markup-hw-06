@@ -1,0 +1,121 @@
+
+@media screen and (min-width: 428px) {
+    .container {
+      max-width: 428px;
+    }
+  
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  
+    .advantages-section {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 24px;
+      row-gap: 72px;
+    }
+  
+    .our-team-list {
+      gap: 24px;
+      row-gap: 72px;
+    }
+  
+  
+    .advantages-section-item {
+      align-items: flex-start;
+      width: calc((100% - 24px) / 2);
+  }
+  
+  .advantages-tittle {
+    text-align: start;
+  }
+  .customer-list {
+    gap: 24px;
+    row-gap: 72px;
+  }
+  
+  .customer-item {
+    max-width: 168px;
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
+  }
+  @media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+    }
+  
+    .section-two {
+      padding-bottom: 120px;
+      padding-top: 120px;
+    }
+  
+    .advantages-section {
+      display: flex;
+      gap: 24px;
+    }
+    .advantages-tittle {
+      display: flex;
+      color: var(--primary-accent-color);
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-bottom: 8px;
+    }
+  
+    .advantages-text {
+      font-weight: 400;
+    }
+    .advantages-text-div {
+        width: 264px;
+    }
+  
+    .advantages-section-item {
+      width: calc((100% - 72px) / 4);
+    }
+  
+    .advantages-section-icon {
+      display: flex;
+    }
+  
+    .advantages-block {
+      width: 264px;
+      height: 112px;
+      background-color: var(--secondary-white-color);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+    }
+  
+    .section-four {
+      padding-bottom: 120px;
+      padding-top: 120px;
+    }
+  
+    .our-team-list {
+      gap: 24px;
+    }
+  
+    .team-card {
+      flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .section-five {
+        padding: 120px 0;
+    }
+
+    .customer-list {
+     gap: 24px;
+    }
+
+    .customer-item {
+        width: calc((100% - 120px) / 6); 
+        height: 88px;
+    }
+  }
+
